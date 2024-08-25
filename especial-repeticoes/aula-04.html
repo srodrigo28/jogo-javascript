@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 04 forEach</title>
+</head>
+<body>
+    <h1>Aula 04, forEarch</h1>
+    <div></div>
+
+    <script>    
+        var div = document.querySelector('div')
+        const nomes = ['Wilson', 'Sirley', 'Cris', 'Maria'];
+    
+        // nomes.forEach( (i) => console.log( '<li>' + i + '</li>' ))
+        div = nomes.forEach( (item, indice) => document.write( '<li>' + indice  + ' - ' +  item + '</li>' ))
+    </script>
+</body>
+</html>

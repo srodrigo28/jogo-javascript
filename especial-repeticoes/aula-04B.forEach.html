@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 04 forEach</title>
+</head>
+<body>
+    <h1>Aula 04, forEarch <button>Mostrar</button> </h1>
+    <div></div>
+
+    <script>    
+        var div = document.querySelector('div')
+        var button = document.querySelector('button')
+        const nomes = ['Wilson', 'Sirley', 'Cris', 'Maria'];
+    
+        button.onclick = () => {
+            return div = nomes.forEach( (item, indice) => document.write( '<li>' + indice  + ' - ' +  item + '</li>' ))
+        }
+    </script>
+</body>
+</html>
