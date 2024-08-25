@@ -11,3 +11,4 @@ https://www.youtube.com/watch?v=LyWSsZktVOg
 #### Detalhes
 * funciona 40min.
 * comida da snake 49min
+* comida random 53min
