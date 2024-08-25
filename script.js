@@ -1,7 +1,7 @@
 
 const canvas = document.querySelector('canvas')
 const ctx = canvas.getContext("2d")
-
+const velocidade = 300
 const size = 30
 
 const snake = [
@@ -47,7 +47,6 @@ const moveSnake = () => {
     if(direction == "up"){
         snake.push( { x: head.x, y: head.y - size } )
     }
-
 }
 
 const gameLoop = () => {
@@ -59,7 +58,7 @@ const gameLoop = () => {
 
     loopId = setTimeout( () => {
         gameLoop()
-    }, 300)
+    }, velocidade)
 }
 
 gameLoop()
