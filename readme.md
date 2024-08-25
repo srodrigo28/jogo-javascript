@@ -12,3 +12,7 @@ https://www.youtube.com/watch?v=LyWSsZktVOg
 * funciona 40min.
 * comida da snake 49min
 * comida random 53min
+* checar se comeu 103min e crescer 1:09min
+* colocar audio na colissão 1:12min
+* colissão self no proprio corpo 1:16min
+* trabalhando menu 1:19min

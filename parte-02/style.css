@@ -11,11 +11,63 @@ body{
     align-items: center;
     flex-direction: column;
     justify-content: center;
-
+    position: relative;
     color: #fff;
     background-color: #191919;
 }
 
 canvas{
     background-color: #111;
+}
+.score{
+    display: flex;
+    align-items: center;
+    flex-direction: column-reverse;
+    width: 300px;
+}
+.score span{
+    font-size: 30px;
+    font-weight: bold;
+}
+.menu-screen{
+    height: 300px;
+    width: 400px;
+    position: absolute;
+    border-radius: 20px;
+    background-color: blueviolet;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    transition: .7s;
+}
+button{
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+    padding: 10px;
+    transition: .7s;
+}
+button:hover{
+    color: #111;
+    height: 3rem;
+    width: 12rem;
+    font-weight: bold;
+    font-size: .9rem;
+    border-radius: 10px;
+    background-color: yellow;
+}
+.game-over{
+    color: red;
+    font-size: 40px;
+}
+.final-score{
+    font-size: 60px;
+}
+.ocultar{
+    display: none;
+}
+.show{
+    display: block;
 }
