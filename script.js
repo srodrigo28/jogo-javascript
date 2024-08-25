@@ -4,12 +4,7 @@ const ctx = canvas.getContext("2d")
 const velocidade = 300
 const size = 30
 
-const snake = [
-    { x: 200, y: 200},
-    { x: 230, y: 200},
-    { x: 260, y: 200},
-    { x: 290, y: 200},
-]
+const snake = [ { x: 0, y: 0} ]
 
 let direction; // ex. left, right, top, bottom
 let loopId;
